@@ -7,7 +7,7 @@ pipeline {
 	 stages{
 		    stage ( 'clone' ){
 		      steps{
-			       git "https://github.com/sirishamaddineni/game-of-life"
+			       git "https://github.com/sirishamaddineni/guava"
 		    }
 		}
 		stage ( 'complie' ){
